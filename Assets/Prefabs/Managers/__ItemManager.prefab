@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4978184246927012525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4978184246927012524}
+  - component: {fileID: 4978184246927012527}
+  - component: {fileID: 4978184246927012526}
+  - component: {fileID: 7483412028149473807}
+  m_Layer: 0
+  m_Name: __ItemManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4978184246927012524
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4978184246927012525}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4978184246927012527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4978184246927012525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8520e8fab9984d4489f8612c86d48a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4978184246927012526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4978184246927012525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab5df8ba3bb43e242b50ff329602a180, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ItemGO: {fileID: 513880060694868754, guid: c5ae900ee8beca043a584073a8411832, type: 3}
+  m_BossDrops: 
+  m_MiniBossDrops: 
+  m_HardEnemyDrops: 
+  m_MedEnemyDrops: 
+  m_EasyEnemyDrops: 0b1a00000c1a00000d1a00000e1a00000f1a0000101a0000111a0000
+  m_SwarmEnemyDrops: 
+  m_EasyObjectiveDrops: 
+  m_MediumObjectiveDrops: 
+  m_HardObjectiveDrops: 
+  m_ChestDrops: 0b1a00000c1a00000d1a00000e1a00000f1a0000101a0000111a0000
+  m_BossDropRate: 0
+  m_MinibossDropRate: 0
+  m_HardEnemyDropRate: 0
+  m_MediumEnemyDropRate: 0
+  m_EasyEnemyDropRate: 0.2
+  m_SwarmEnemyDropRate: 0
+  m_ChestDropRate: 1
+  m_HardObjectiveDropRate: 0
+  m_MediumObjectiveDropRate: 0
+  m_EasyObjectiveDropRate: 0
+  m_CommonDropRate: 1
+  m_UncommonDropRate: 0
+  m_RareDropRate: 0
+  m_EpicDropRate: 0
+  m_LegendaryDropRate: 0
+--- !u!114 &7483412028149473807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4978184246927012525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d41d7687816876d45983ea9e2437011c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: ItemDrop
+    clip: {fileID: 8300000, guid: 3411c489409a84840a69586deeda868e, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}

@@ -1,0 +1,13 @@
+ManifestFileVersion: 0
+CRC: 1628656252
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: items/passiveitems
+      Dependencies: {}
+    Info_1:
+      Name: items/activeitems
+      Dependencies: {}
+    Info_2:
+      Name: items/weaponitems
+      Dependencies: {}

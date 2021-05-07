@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb1281d131a411b498a4a2abe2b5288d, type: 3}
+  m_Name: Greatsword
+  m_EditorClassIdentifier: 
+  m_ID: 6668
+  m_ItemName: Greatsword
+  m_Description: Most definitely not a cold sore.
+  m_Rarity: 0
+  m_Limit: 0
+  m_Icon: {fileID: -6449040788438266585, guid: aa3768e463b053848a3ddf91bdaeea66, type: 3}
+  m_Damage: 10
+  m_KnockbackPower: 200
+  m_AnimationName: Greatsword
+  m_IsRanged: 0
+  m_ChargePerSecond: 20
+  m_MaxCharge: 100
+  m_AttackAnims:
+  - {fileID: 7400000, guid: 059f50c66426baa4fa0cc608689a090d, type: 2}
+  - {fileID: 7400000, guid: 22c74efad853dba4f99e6b90770cc892, type: 2}
+  - {fileID: 7400000, guid: 7079ab0334a5c524cb6a75b1dacec1ea, type: 2}
+  - {fileID: 7400000, guid: 72ff40d7bd3e7e843aec8cdf9fb1e40d, type: 2}
+  m_IdleAnims:
+  - {fileID: 7400000, guid: 3e88ccd7a031e5c43a3416e3a9d42a6b, type: 2}
+  - {fileID: 7400000, guid: 97a65ce7e29a1e5488990e23dedf2f41, type: 2}
+  - {fileID: 7400000, guid: b6bae99002b24db40b249ba3e408d563, type: 2}
+  - {fileID: 7400000, guid: d0c32b61ece8af943a41a56f6644b506, type: 2}
